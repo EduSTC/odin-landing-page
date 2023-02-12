@@ -1,10 +1,12 @@
 body {
-    background-color: #1F2937;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
 }
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border: 2px black solid;
 }
 
 .header {
@@ -13,11 +15,20 @@ body {
     background-color: #1F2937;
     color: white;
     border: 2px black solid;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
+    width: 1000px;
+    align-items: center;
 }
 
 .header-content {    
@@ -25,6 +36,7 @@ body {
     justify-content: center;
     gap: 16px;
     padding: 100px 0px;
+    width: 1000px;
 }
 
 .main-title {
@@ -33,14 +45,10 @@ body {
 
 .image {
     flex: 1 0 0;
-    height: 300px;
-    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
-
-    
+    background-color: grey;   
 }
 
 
@@ -61,8 +69,10 @@ a {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 8px 24px;
+    padding: 8px 32px;
     border-style: none;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 h1 {
@@ -73,11 +83,15 @@ h1 {
     margin: 0;
 }
 
-p {
+p, ul {
     font-size: 18px;
     color: #E5E7EB;
     padding: 0;
     margin: 0;
+}
+
+p {
+    padding-bottom: 16px;
 }
 
 .cards {
