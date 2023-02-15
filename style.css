@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    border: 2px black solid;
     align-items: center;
 }
 
@@ -94,7 +93,6 @@ p {
 }
 
 .cards-section {
-    border: 2px black solid;
     text-align: center;
     width: 850px;
     align-self: center;
@@ -133,7 +131,32 @@ h2 {
     border-radius: 16px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
 .quote {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote > h3 {
+    align-self: flex-end;
+    padding-right: 50px;
+
 }
 
 .sign-up {
